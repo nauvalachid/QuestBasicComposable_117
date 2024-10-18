@@ -57,6 +57,7 @@ fun BasicLayout(modifier: Modifier = Modifier){
         Text(text = "Nauval Achid Rosady",
             style = TextStyle(fontSize = 13.sp,
                 color = Color.Red, fontWeight = FontWeight.Bold))
+        Text(text = "20220140117")
     }
 }
 
