@@ -53,6 +53,7 @@ fun BasicLayout(modifier: Modifier = Modifier){
             contentDescription = ""
         )
         Text(text = "Nama")
+        Text(text = "Nauval Achid Rosady")
     }
 }
 
