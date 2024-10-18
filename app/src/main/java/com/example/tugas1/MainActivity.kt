@@ -17,6 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
@@ -58,7 +59,8 @@ fun BasicLayout(modifier: Modifier = Modifier){
             style = TextStyle(fontSize = 13.sp,
                 color = Color.Red, fontWeight = FontWeight.Bold))
         Text(text = "20220140117",
-            style = TextStyle(fontSize = 25.sp,))
+            style = TextStyle(fontSize = 25.sp,
+                fontStyle = FontStyle.Italic))
     }
 }
 
