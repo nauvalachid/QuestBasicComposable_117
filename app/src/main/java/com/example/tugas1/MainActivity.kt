@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -20,6 +21,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.tugas1.ui.theme.Tugas1Theme
 
@@ -61,6 +63,11 @@ fun BasicLayout(modifier: Modifier = Modifier){
         Text(text = "20220140117",
             style = TextStyle(fontSize = 25.sp,
                 fontStyle = FontStyle.Italic, fontWeight = FontWeight.Bold))
+        Image(painter = painterResource(
+            id = R.drawable.a
+        ),
+            contentDescription = "",
+            modifier = Modifier.size(300.dp))
     }
 }
 
