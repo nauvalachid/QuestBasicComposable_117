@@ -14,6 +14,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -53,7 +54,9 @@ fun BasicLayout(modifier: Modifier = Modifier){
             contentDescription = ""
         )
         Text(text = "Nama")
-        Text(text = "Nauval Achid Rosady")
+        Text(text = "Nauval Achid Rosady",
+            style = TextStyle(fontSize = 13.sp,
+                color = Color.Red))
     }
 }
 
