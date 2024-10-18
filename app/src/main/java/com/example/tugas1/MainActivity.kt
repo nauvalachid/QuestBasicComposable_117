@@ -60,7 +60,7 @@ fun BasicLayout(modifier: Modifier = Modifier){
                 color = Color.Red, fontWeight = FontWeight.Bold))
         Text(text = "20220140117",
             style = TextStyle(fontSize = 25.sp,
-                fontStyle = FontStyle.Italic))
+                fontStyle = FontStyle.Italic, fontWeight = FontWeight.Bold))
     }
 }
 
